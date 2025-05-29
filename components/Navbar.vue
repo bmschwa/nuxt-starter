@@ -1,13 +1,6 @@
 <script setup>
 const menuitems = [
-  {
-    title: "Sign up",
-    url: "https://app.netlify.com/signup",
-  },
-  {
-    title: "Log in",
-    url: "https://app.netlify.com/login",
-  },
+
 ];
 </script>
 
@@ -30,4 +23,14 @@ const menuitems = [
       </nav>
     </header>
   </Container>
+
+    <!-- 
+  These were original menu items
+    title: "Sign up",
+    url: "https://app.netlify.com/signup",
+  },
+  {
+    title: "Log in",
+    url: "https://app.netlify.com/login",
+  }, -->
 </template>
