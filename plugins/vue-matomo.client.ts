@@ -6,11 +6,11 @@ export default defineNuxtPlugin((nuxtApp) => {
     // Wait for the script to be loaded
     const waitForScript = () => {
       return new Promise((resolve) => {
-        if (document.querySelector('script[src="/matomo/matomo.js"]')) {
+        if (document.querySelector('script[src="/matomo/matomo.cjs"]')) {
           resolve(true)
         } else {
           const checkInterval = setInterval(() => {
-            if (document.querySelector('script[src="/matomo/matomo.js"]')) {
+            if (document.querySelector('script[src="/matomo/matomo.cjs"]')) {
               clearInterval(checkInterval)
               resolve(true)
             }

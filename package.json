@@ -7,9 +7,13 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "download-matomo": "node scripts/download-matomo.cjs",
+    "prepare": "husky"
   },
   "devDependencies": {
+    "husky": "^9.0.11",
+    "lint-staged": "^16.1.0",
     "nuxt": "3.17.0",
     "nuxt-icon": "^0.6.10",
     "tailwindcss": "^4.0.16",
@@ -20,5 +24,10 @@
     "@nuxt/image": "^1.10.0",
     "@tailwindcss/vite": "^4.0.16",
     "vue-matomo": "^4.2.0"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": [
+      "npm run download-matomo"
+    ]
   }
 }
