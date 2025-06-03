@@ -13,12 +13,12 @@
   },
   "devDependencies": {
     "husky": "^9.0.11",
-    "lint-staged": "^16.1.0",
-    "nuxt": "3.17.0",
+    "lint-staged": "^15.2.2",
+    "nuxt": "^3.10.3",
     "nuxt-icon": "^0.6.10",
-    "tailwindcss": "^4.0.16",
-    "vue": "^3.4.3",
-    "vue-router": "^4.2.5"
+    "tailwindcss": "^3.4.1",
+    "vue": "^3.4.19",
+    "vue-router": "^4.3.0"
   },
   "dependencies": {
     "@nuxt/image": "^1.10.0",
@@ -29,5 +29,8 @@
     "*.{js,ts,vue}": [
       "npm run download-matomo"
     ]
+  },
+  "engines": {
+    "node": ">=22.0.0"
   }
 }
