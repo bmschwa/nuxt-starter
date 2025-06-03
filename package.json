@@ -12,6 +12,7 @@
     "prepare": "husky"
   },
   "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.11.4",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "nuxt": "^3.10.3",
@@ -22,7 +23,6 @@
   },
   "dependencies": {
     "@nuxt/image": "^1.10.0",
-    "@tailwindcss/vite": "^4.0.16",
     "vue-matomo": "^4.2.0"
   },
   "lint-staged": {
