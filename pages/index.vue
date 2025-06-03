@@ -1,21 +1,8 @@
 <script setup>
 import pageData from '@/data/index.json'
 const page = ref(pageData)
+//import { defineNuxtPlugin } from '#app'
 
-//import Vue from 'vue'
-//import VueMatomo from 'vue-matomo'
-
-/*
-
-    .use(VueMatomo, {
-            // Configure your matomo server and site by providing
-            host: 'https://wellvetted.matomo.cloud/',
-            siteId: 1,
-        })
-        .mount('#app')
-
-        window._paq.push(['trackPageView']);
-*/
 definePageMeta({
   layout: "default",
 });
