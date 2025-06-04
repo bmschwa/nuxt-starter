@@ -1,20 +1,26 @@
 <script setup>
 useHead({
   htmlAttrs: { lang: "en-US" },
-  title: "Nuxt Starter",
+  title: "Under Construction",
   meta: [
     {
       name: "description",
-      content:
-        "Nuxt Starter is a minimal template created for quick landing pages, built with Nuxt and Tailwind CSS.",
+      content: "Our website is under construction. Please check back soon!",
     },
     {
       name: "viewport",
       content: "width=device-width, initial-scale=1",
     }
   ],
+  link: [
+    {
+      rel: 'icon',
+      type: 'image/svg+xml',
+      href: '/images/wv_logo.svg'
+    }
+  ],
   bodyAttrs: {
-    class: "font-display",
+    class: "font-sans",
   },
 });
 </script>
